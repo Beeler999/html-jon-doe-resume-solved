@@ -10,8 +10,8 @@ To preview your created app, simply click the "Go Live" button found in the VSCO
 
 If you are not using VSCode you can install and run the "live-server" npm package following the list of commands:
 
-- [ ] Use `npm i live-server` to install the live-server package
-- [ ] Use `npm run live-server` or `npx live-server --port=5551` to run the live-server. The port number should be 5551 strictly.
+- [x] Use `npm i live-server` to install the live-server package
+- [x] Use `npm run live-server` or `npx live-server --port=5551` to run the live-server. The port number should be 5551 strictly.
 
 The live-server installation video: [Video](https://www.loom.com/share/ca99ebec79d14bfa9fc4dd012661f919?sid=0c702a22-c5bd-4608-93d2-0643aecb4b07)  
 The live-server NPM package page: [Link](https://www.npmjs.com/package/live-server)
@@ -52,17 +52,17 @@ This assignment should prove that a student is able to:
   - [x] Use `npm i` to install packages
   - [x] Use `npm run browser-install` to install the browser environment for testing (~131mb will be downloaded)
   - [x] (Windows users only) Use `npm run deps-install` to install playwright additional dependencies (160mb will be downloaded)
-- [ ] All the tasks of the "Specific requirements" section MUST be solved
-- [ ] All the tests MUST pass. Fix any errors before you submit (acceptance criteria).
-  - [ ] Use `npm run test` to run all tests in the terminal
-  - [ ] Use `npm run test-part1` to run the tests for the first part of specific requirements in the terminal
-  - [ ] Use `npm run test-part2` to run the tests for the second part of specific requirements in the terminal
-  - [ ] (Optional) Use `npm run test-ui` to run all the tests with GUI
-  - [ ] (Optional) Use `npm run show-report` to see the latest report in the browser
-- [ ] VSCode IDE MUST have 0 code problems listed (spelling problems are fine)
-- [ ] The code MUST be formatted with Prettier
-- [ ] Push the changes to the Github repo, when finished.
-- [ ] Submit a .txt file with the Github repo url.
+- [x] All the tasks of the "Specific requirements" section MUST be solved
+- [x] All the tests MUST pass. Fix any errors before you submit (acceptance criteria).
+  - [x] Use `npm run test` to run all tests in the terminal
+  - [x] Use `npm run test-part1` to run the tests for the first part of specific requirements in the terminal
+  - [x] Use `npm run test-part2` to run the tests for the second part of specific requirements in the terminal
+  - [x] (Optional) Use `npm run test-ui` to run all the tests with GUI
+  - [x] (Optional) Use `npm run show-report` to see the latest report in the browser
+- [x] VSCode IDE MUST have 0 code problems listed (spelling problems are fine)
+- [x] The code MUST be formatted with Prettier
+- [x] Push the changes to the Github repo, when finished.
+- [x] Submit a .txt file with the Github repo url.
 
 ## Specific requirements
 
@@ -95,7 +95,7 @@ All the tasks in the requirements are related to the index.html file! Consider "
 ### Part 2: Testing the magic of id and class attributes
 
 - [x] In the head section connect the CSS file, available by the following path: `./css/styles.css`.
-- [ ] In the head section connect a JS file, available by the following path: `./js/scripts.js`. Make sure it will be executed after the html is parsed.
+- [x] In the head section connect a JS file, available by the following path: `./js/scripts.js`. Make sure it will be executed after the html is parsed.
 - [x] The page heading should have the id of "candidate-name"
 - [x] The desired role section heading should the id of "candidate-desired-role"
 - [x] The "About me" section heading should have an id of "about-me".
@@ -108,4 +108,4 @@ All the tasks in the requirements are related to the index.html file! Consider "
 - [x] The contacts section heading should have the id of "contacts"
 - [x] The contacts table should have a class name of "contacts-table".
 - [x] The body should have a class name of "fancy-body".
-- [ ] Check the result mockup to make sure your page looks EXACTLY as the mockup (/assets/images/p2-solved-mockup.png).
+- [x] Check the result mockup to make sure your page looks EXACTLY as the mockup (/assets/images/p2-solved-mockup.png).
